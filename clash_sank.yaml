@@ -472,6 +472,9 @@ rules:
 
 # Global Area Network
 # (GlobalMedia)
+# by sank
+
+- DOMAIN-SUFFIX,thepiratebay.org,GlobalMedia
 # (Music)
 # > Deezer
 # USER-AGENT,Deezer*,GlobalMedia
