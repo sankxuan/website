@@ -122,21 +122,21 @@ proxies:
 #     #   custom: value
 
 # VMess
-- name: "v2ray"
-  type: vmess
-  server: server
-  port: 443
-  uuid: a3482e88-686a-4a58-8126-99c9df64b7bf
-  alterId: 64
-  cipher: auto
-  # udp: true
-  # tls: true
-  # skip-cert-verify: true
-  # tls-hostname: 填写伪装域名
-  # network: ws
-  # ws-path: /path
-  # ws-headers: #这一行后面不要写东西
-  #   Host: v2ray.com # 填写伪装域名
+# - name: "v2ray"
+#   type: vmess
+#   server: server
+#   port: 443
+#   uuid: a3482e88-686a-4a58-8126-99c9df64b7bf
+#   alterId: 64
+#   cipher: auto
+#   # udp: true
+#   # tls: true
+#   # skip-cert-verify: true
+#   # tls-hostname: 填写伪装域名
+#   # network: ws
+#   # ws-path: /path
+#   # ws-headers: #这一行后面不要写东西
+#   #   Host: v2ray.com # 填写伪装域名
 
 # Trojan
 - name: "trojan"
@@ -163,7 +163,7 @@ proxy-groups:
     # - "ss-obfs"
     # - "ss-v2ray"
     - "trojan"
-    - "v2ray"
+    # - "v2ray"
   url: 'http://www.gstatic.com/generate_204'
   interval: 300
 
@@ -197,7 +197,7 @@ proxy-groups:
     # - "ss"
     # - "ss-obfs"
     # - "ss-v2ray"
-    - "v2ray"
+    # - "v2ray"
     - "trojan"
 
 # 白名单模式 PROXY，黑名单模式 DIRECT
@@ -222,7 +222,7 @@ proxy-groups:
     # - "ss"
     # - "ss-obfs"
     # - "ss-v2ray"
-    - "v2ray"
+    # - "v2ray"
     - "trojan"
 # 大陆流媒体面向港澳台限定服务
 - name: "HKMTMedia"
@@ -232,7 +232,7 @@ proxy-groups:
     # - "ss"
     # - "ss-obfs"
     # - "ss-v2ray"
-    - "v2ray"
+    # - "v2ray"
     - "trojan"
 
 # 规则
