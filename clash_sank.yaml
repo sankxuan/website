@@ -1027,7 +1027,7 @@ rules:
 - DOMAIN-SUFFIX,soundcloud.com,PROXY
 - DOMAIN-SUFFIX,ssrcloud.org,PROXY
 - DOMAIN-SUFFIX,startpage.com,PROXY
-- DOMAIN-SUFFIX,steamcommunity.com,PROXY
+# - DOMAIN-SUFFIX,steamcommunity.com,PROXY
 - DOMAIN-SUFFIX,steemit.com,PROXY
 - DOMAIN-SUFFIX,steemitwallet.com,PROXY
 - DOMAIN-SUFFIX,t66y.com,PROXY
