@@ -473,7 +473,7 @@ rules:
 # Global Area Network
 # (GlobalMedia)
 # by sank
-
+- DOMAIN-SUFFIX,git.io,GlobalMedia
 - DOMAIN-SUFFIX,thepiratebay.org,GlobalMedia
 # (Music)
 # > Deezer
