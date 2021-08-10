@@ -354,43 +354,43 @@ proxies:
 proxy-groups:
   # 代理的转发链, 在 proxies 中不应该包含 relay. 不支持 UDP.
   # 流量: clash <-> http <-> vmess <-> ss1 <-> ss2 <-> 互联网
-  - name: "relay"
-    type: relay
-    proxies:
-      - trojan
-      # - vmess
-      # - ss1
-      # - ss2
+  # - name: "relay"
+  #   type: relay
+  #   proxies:
+  #     - trojan
+  #     # - vmess
+  #     # - ss1
+  #     # - ss2
 
-  # url-test 可以自动选择与指定 URL 测速后，延迟最短的服务器
-  - name: "auto"
-    type: url-test
-    proxies:
-      - trojan
-      # - ss2
-      # - vmess1
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+  # # url-test 可以自动选择与指定 URL 测速后，延迟最短的服务器
+  # - name: "auto"
+  #   type: url-test
+  #   proxies:
+  #     - trojan
+  #     # - ss2
+  #     # - vmess1
+  #   url: 'http://www.gstatic.com/generate_204'
+  #   interval: 300
 
-  # fallback 可以尽量按照用户书写的服务器顺序，在确保服务器可用的情况下，自动选择服务器
-  - name: "fallback-auto"
-    type: fallback
-    proxies:
-      - trojan
-      # - ss2
-      # - vmess1
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+  # # fallback 可以尽量按照用户书写的服务器顺序，在确保服务器可用的情况下，自动选择服务器
+  # - name: "fallback-auto"
+  #   type: fallback
+  #   proxies:
+  #     - trojan
+  #     # - ss2
+  #     # - vmess1
+  #   url: 'http://www.gstatic.com/generate_204'
+  #   interval: 300
 
-  # load-balance 可以使相同 eTLD 请求在同一条代理线路上
-  - name: "load-balance"
-    type: load-balance
-    proxies:
-      - trojan
-      # - ss2
-      # - vmess1
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 300
+  # # load-balance 可以使相同 eTLD 请求在同一条代理线路上
+  # - name: "load-balance"
+  #   type: load-balance
+  #   proxies:
+  #     - trojan
+  #     # - ss2
+  #     # - vmess1
+  #   url: 'http://www.gstatic.com/generate_204'
+  #   interval: 300
 
   # select 用来允许用户手动选择 代理服务器 或 服务器组
   # 您也可以使用 RESTful API 去切换服务器，这种方式推荐在 GUI 中使用
