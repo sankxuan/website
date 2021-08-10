@@ -1282,8 +1282,8 @@ rules:
 - DOMAIN-SUFFIX,wolframalpha.com,PROXY
 - DOMAIN-SUFFIX,x-art.com,PROXY
 - DOMAIN-SUFFIX,yimg.com,PROXY
-- DOMAIN,api.steampowered.com,PROXY
-- DOMAIN,store.steampowered.com,PROXY
+# - DOMAIN,api.steampowered.com,PROXY
+# - DOMAIN,store.steampowered.com,PROXY
 
 # China Area Network
 # > 360
