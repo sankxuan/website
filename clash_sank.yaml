@@ -486,8 +486,11 @@ rules:
   - RULE-SET,foreign,Proxy
   - RULE-SET,telegram,Proxy
   - RULE-SET,lan,DIRECT
+
+  - DOMAIN-SUFFIX,notion.so,DIRECT
+  # - DOMAIN,amazonaws.com,Proxy
+
   - GEOIP,CN,DIRECT
   - MATCH,Proxy
-  - DOMAIN,notion.so,DIRECT
-  # - DOMAIN,amazonaws.com,Proxy
+  
   
