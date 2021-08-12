@@ -488,6 +488,6 @@ rules:
   - RULE-SET,lan,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,Proxy
-  # - DOMAIN,notion.so,Proxy
+  - DOMAIN,notion.so,DIRECT
   # - DOMAIN,amazonaws.com,Proxy
   
