@@ -489,3 +489,5 @@ rules:
   - GEOIP,CN,DIRECT
   - MATCH,Proxy
   - DOMAIN,notion.so,Proxy
+  - DOMAIN,amazonaws.com,Proxy
+  
