@@ -489,7 +489,8 @@ rules:
 
   - DOMAIN-SUFFIX,notion.so,DIRECT
   - DOMAIN-SUFFIX,steampowered.com,DIRECT
-  # - DOMAIN-SUFFIX,steampowered.com,DIRECT
+  - DOMAIN-SUFFIX,steamstatic.com,DIRECT
+  - DOMAIN-SUFFIX,steamcontent.com,DIRECT
   # - DOMAIN,amazonaws.com,Proxy
 
   - GEOIP,CN,DIRECT
