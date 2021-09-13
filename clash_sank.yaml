@@ -488,6 +488,8 @@ rules:
   - RULE-SET,lan,DIRECT
 
   - DOMAIN-SUFFIX,notion.so,DIRECT
+  - DOMAIN-SUFFIX,steampowered.com,DIRECT
+  # - DOMAIN-SUFFIX,steampowered.com,DIRECT
   # - DOMAIN,amazonaws.com,Proxy
 
   - GEOIP,CN,DIRECT
