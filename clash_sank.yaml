@@ -323,7 +323,7 @@ proxies:
     type: trojan
     server: www2.sanqianqian.xyz
     port: 443
-    password: mwuSQEWY
+    password: f76a2908
     # udp: true
     # sni: example.com # 服务名称
     alpn:
