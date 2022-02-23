@@ -322,14 +322,14 @@ proxies:
   - name: "trojan"
     type: trojan
     server: www2.sanqianqian.xyz
-    port: 443
+    port: 444
     password: f76a2908
     # udp: true
-    # sni: example.com # 服务名称
-    alpn:
-      - h2
-      - http/1.1
-    # skip-cert-verify: true
+    # sni: DFE4545DFDED # 服务名称
+    #alpn:
+    #  - h2
+    #  - http/1.1
+    skip-cert-verify: true
 
   # # ShadowsocksR
   # # 支持的加密方式: SS 中支持的所有流加密方式
@@ -482,7 +482,7 @@ rules:
   - RULE-SET,apple-proxy,Proxy
   - RULE-SET,apple-direct,DIRECT
   - RULE-SET,cn,DIRECT
-  - RULE-SET,ad-keyword,REJECT
+  # - RULE-SET,ad-keyword,REJECT
   - RULE-SET,foreign,Proxy
   - RULE-SET,telegram,Proxy
   - RULE-SET,lan,DIRECT
