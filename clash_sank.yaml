@@ -329,7 +329,7 @@ proxies:
     #alpn:
     #  - h2
     #  - http/1.1
-    skip-cert-verify: true
+    skip-cert-verify: false
 
   # # ShadowsocksR
   # # 支持的加密方式: SS 中支持的所有流加密方式
